@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Dark World - IP Intelligence & Network Analysis Tool
 
-# Run and deploy your AI Studio app
+Dark World is an advanced, cyberpunk-themed web application designed for IP intelligence and network analysis. It allows users to search for any IP address and retrieve detailed geographical and network information in a highly interactive, futuristic user interface.
 
-This contains everything you need to run your app locally.
+![Dark World Preview](https://via.placeholder.com/800x450.png?text=Dark+World+IP+Intelligence)
 
-View your app in AI Studio: https://ai.studio/apps/818fd32a-b09d-4313-940a-954cc9d94bee
+## 🚀 Features
 
-## Run Locally
+- **Real-Time IP Tracking:** Fetch accurate data for any IPv4 or IPv6 address.
+- **Detailed Analytics:** Displays Country, Region, City, ISP, Timezone, and exact Coordinates (Latitude/Longitude).
+- **Cyberpunk UI/UX:** Immersive dark theme with neon glowing effects, particle animations, and glassmorphism design.
+- **Interactive Map Simulation:** Visual representation of the IP location coordinates.
+- **Premium Data Simulation:** A built-in lock/unlock system for "Classified" data (Use code: `darkworld0907` to test).
+- **Responsive Design:** Fully optimized for both desktop and mobile devices.
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
 
+- **Frontend Framework:** React 18 (with Vite)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion (`motion/react`)
+- **Icons:** Lucide React
+- **API:** IPinfo.io (for IP geolocation data)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📦 Installation & Setup
+
+Follow these steps to run the project locally on your machine:
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/dark-world-ip-intelligence.git
+   cd dark-world-ip-intelligence
